@@ -44,7 +44,6 @@ public class DashboardFormController {
         time.setCycleCount(Animation.INDEFINITE);
         time.play();
     }
-
     public void logoutOnAction(ActionEvent actionEvent) throws IOException {
         Stage stage = (Stage) dashBoardContext.getScene().getWindow();
         Scene scene = new Scene(FXMLLoader.load(getClass().getResource("../view/LoginForm.fxml")));
@@ -54,13 +53,19 @@ public class DashboardFormController {
         stage.centerOnScreen();
         stage.show();
     }
-//    public void viewStudentOnAction(ActionEvent actionEvent) throws IOException {
-//        loadForm("../view/studentsView.fxml");
-//    }
-//
-//    public void addStudentOnAction(ActionEvent actionEvent) throws IOException {
-//        loadForm("../view/AddStudentForm.fxml");
-//    }
+    public void viewStudentOnAction(ActionEvent actionEvent) throws IOException {
+        loadForm("../view/Students.fxml");
+    }
+    public void viewProffessorsOnAction(ActionEvent actionEvent) throws IOException {
+        loadForm("../view/Proffessors.fxml");
+    }
+    public void viewCoursesOnAction(ActionEvent actionEvent) throws IOException {
+        loadForm("../view/Courses.fxml");
+    }
+
+    public void addStudentOnAction(ActionEvent actionEvent) throws IOException {
+        loadForm("../view/AddStudentForm.fxml");
+    }
 
     private void loadForm(String url) throws IOException {
         loadContext.getChildren().clear();

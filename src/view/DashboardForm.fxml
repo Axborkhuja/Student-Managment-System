@@ -86,12 +86,12 @@
                               <Insets bottom="6.0" />
                            </VBox.margin>
                         </JFXButton>
-                        <JFXButton focusTraversable="false" layoutX="10.0" layoutY="60.0" maxWidth="1.7976931348623157E308" onAction="#registerOnAction" prefHeight="50.0" prefWidth="180.0" styleClass="home-button" stylesheets="@style/style.css" text="Proffessors" textFill="#393636">
+                        <JFXButton focusTraversable="false" layoutX="10.0" layoutY="60.0" maxWidth="1.7976931348623157E308" onAction="#viewProffessorsOnAction" prefHeight="50.0" prefWidth="180.0" styleClass="home-button" stylesheets="@style/style.css" text="Proffessors" textFill="#393636">
                            <font>
                               <Font name="System Bold" size="18.0" />
                            </font>
                         </JFXButton>
-                        <JFXButton focusTraversable="false" layoutX="10.0" layoutY="113.0" maxWidth="1.7976931348623157E308" onAction="#registerDetailOnAction" prefHeight="50.0" prefWidth="180.0" styleClass="home-button" stylesheets="@style/style.css" text="Cources" textFill="#393636">
+                        <JFXButton focusTraversable="false" layoutX="10.0" layoutY="113.0" maxWidth="1.7976931348623157E308" onAction="#viewCoursesOnAction" prefHeight="50.0" prefWidth="180.0" styleClass="home-button" stylesheets="@style/style.css" text="Cources" textFill="#393636">
                            <font>
                               <Font name="System Bold" size="18.0" />
                            </font>
@@ -99,12 +99,12 @@
                               <Insets bottom="6.0" />
                            </VBox.margin>
                         </JFXButton>
-                        <JFXButton focusTraversable="false" layoutX="10.0" layoutY="160.0" maxWidth="1.7976931348623157E308" onAction="#addProgramOnAction" prefHeight="50.0" prefWidth="180.0" styleClass="home-button" stylesheets="@style/style.css" text="Timetable" textFill="#393636">
+                        <JFXButton focusTraversable="false" layoutX="10.0" layoutY="160.0" maxWidth="1.7976931348623157E308"  prefHeight="50.0" prefWidth="180.0" styleClass="home-button" stylesheets="@style/style.css" text="Timetable" textFill="#393636">
                            <font>
                               <Font name="System Bold" size="18.0" />
                            </font>
                         </JFXButton>
-                        <JFXButton focusTraversable="false" layoutX="10.0" layoutY="210.0" maxWidth="1.7976931348623157E308" onAction="#viewProgramOnAction" prefHeight="50.0" prefWidth="180.0" styleClass="home-button" stylesheets="@style/style.css" text="Program Details" textFill="#393636">
+                        <JFXButton focusTraversable="false" layoutX="10.0" layoutY="210.0" maxWidth="1.7976931348623157E308"  prefHeight="50.0" prefWidth="180.0" styleClass="home-button" stylesheets="@style/style.css" text="Program Details" textFill="#393636">
                            <font>
                               <Font name="System Bold" size="18.0" />
                            </font>

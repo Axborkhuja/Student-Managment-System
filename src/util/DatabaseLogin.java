@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class databaseLogin {
+public class DatabaseLogin {
     public static Connection getDb(String TableName){
 
         try{

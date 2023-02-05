@@ -1,6 +1,6 @@
 package util;
 
-public class studentData {
+public class StudentData {
     private String FirstName;
     private String SecondName;
     private String FamilyName;
@@ -10,7 +10,7 @@ public class studentData {
     private String PhoneNumber;
     private String Address;
 
-    public studentData(String firstName, String secondName, String familyName, String email, String department, String year, String phoneNumber, String address) {
+    public StudentData(String firstName, String secondName, String familyName, String email, String department, String year, String phoneNumber, String address) {
         this.FirstName = firstName;
         this.SecondName = secondName;
         this.FamilyName = familyName;

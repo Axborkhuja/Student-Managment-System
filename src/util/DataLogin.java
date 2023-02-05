@@ -1,6 +1,6 @@
 package util;
 
-public class getDataLogin {
+public class DataLogin {
 
     public static String username;
     public static String path;

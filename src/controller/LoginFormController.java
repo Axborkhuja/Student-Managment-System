@@ -24,7 +24,7 @@ public class LoginFormController {
         if (txtUsername.getText().equalsIgnoreCase("admin")) {//  <<<<<<<<<<
             if (txtPassword.getText().equalsIgnoreCase("1234")) {//  <<<<<<<<<
                 stage = (Stage) loginContext.getScene().getWindow();
-                stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/studentView.fxml"))));
+                stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/DashboardForm.fxml"))));
                 stage.setResizable(false);
                 stage.centerOnScreen();
                 stage.show();
